@@ -1,0 +1,171 @@
+/* Set the height of the body and html tags to 100% to ensure the hero div takes up the full height of the viewport */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  font-family: 'Roobert';
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  height: 100vh;
+  background: linear-gradient(239.85deg, rgba(197, 227, 220, 0.5) 17.73%, rgba(255, 209, 209, 0.5) 97.19%);
+}
+
+
+/* the street and open app at the top*/
+
+.nav-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid rgba(22, 27, 25, 0.12);
+  margin-left: 20px;
+  margin-right: 20px
+}
+
+/*top left street logo*/
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/*top right open app button*/
+.button {
+  display: inline-block;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 16px;
+  background-color: black;
+  padding: 12px 24px;
+}
+
+/*hover effect on buttons*/
+
+.button:hover {
+  opacity: 0.7;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+/*testing grounds text on the left*/
+
+.hero-headline {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 56px;
+  font-size: 8em;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-style: normal;
+  line-height: 86%;
+  position: absolute;
+  left: 0;
+  top: 20%;
+  padding: 40px;
+}
+
+.hero-headline-paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  width: 460px;
+  position: absolute;
+  left: 0;
+  top: 40%;
+  padding: 40px;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+/*borrow buttons*/
+
+.borrow-lend-buttons {
+  display: flex;
+  position: absolute
+}
+
+.borrow-button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 16px;
+  background-color: black;
+  padding: 18px 49px;
+  gap: 10px;
+
+}
+
+.lend-button {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: 2px solid #000000;
+  border-radius: 16px;
+  padding: 18px 49px;
+  gap: 10px;
+}
+/*changing colour on hover*/
+
+.borrow-button:hover{
+  opacity: 0.7;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+.lend-button:hover{
+  
+  transition: 0.6s ease;
+  cursor: pointer;
+  background: #000000;
+  color: #F5F5F5;
+}
+
+
+/*statistics div under hero*/
+
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #F5F5F5;
+}
+
+.statistics-info {
+  display: flex;
+  align-items: center;
+}
+
+.treasury-balance {
+  font-weight: bold;
+} 
+
+
